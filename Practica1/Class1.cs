@@ -24,7 +24,7 @@ namespace Practica1
         public string Color;
         public double Velocidad;
 
-        public void arrancar() 
+        public void arrancar()
         {
             Console.WriteLine($"El {Nombre} {Marca} esta arrancando");
         }
@@ -38,11 +38,29 @@ namespace Practica1
         }
         public void informacion()
         {
-            Console.WriteLine("Marca: "+Marca);
-            Console.WriteLine("Color: "+Color);
-            Console.WriteLine("Modelo: "+Modelo);
-            Console.WriteLine("Velocidad: "+Velocidad);
+            Console.WriteLine("Marca: " + Marca);
+            Console.WriteLine("Color: " + Color);
+            Console.WriteLine("Modelo: " + Modelo);
+            Console.WriteLine("Velocidad: " + Velocidad);
         }
-    class
+        class persona
+        {
+            public string Nombre;
+            public int edad;
+            public double altura;
+            public double peso;
+        }
+        public void presentacion()
+        {
+
+        }
+        public void cumpleanos()
+        {
+
+        }
+        public void info()
+        {
+
+        }
     }
 }
